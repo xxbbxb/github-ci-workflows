@@ -1,0 +1,7 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+  - name: app-container
+    newName: registry-image
+    newTag: 03e0f314e05d82d135f597a9d8cbf0d3ab003ca9
